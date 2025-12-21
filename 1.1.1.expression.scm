@@ -15,4 +15,7 @@
 (display (- 10.3 4))
 (newline)
 
+(display (+ 1 2 3 4))
+(newline)
+
 (exit)
