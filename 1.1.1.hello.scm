@@ -1,3 +1,3 @@
-(begin
- (display "hello, world")
- (newline))
+(display "hello, world")
+(newline)
+(exit)
