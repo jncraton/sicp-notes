@@ -15,4 +15,14 @@
 (display (abs -3))
 (newline)
 
+; Define abs using `if`
+; (if ⟨predicate⟩ ⟨consequent⟩ ⟨alternative⟩)
+(define (abs x)
+  (if (< x 0)
+      (- x)
+      x))
+
+(display (abs -3))
+(newline)
+
 (exit)
