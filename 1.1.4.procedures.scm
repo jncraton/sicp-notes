@@ -1,4 +1,5 @@
-(define (square x) (* x x))
+(define (square x)
+  (* x x))
 
 (display (square 5))
 (newline)
