@@ -1,6 +1,6 @@
 # SICP
 
-Example code from reading through SICP
+Example code from reading through [SICP](https://media.githubusercontent.com/media/sarabander/sicp-pdf/master/sicp.pdf)
 
 ## Running Programs
 
