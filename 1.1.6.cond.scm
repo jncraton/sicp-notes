@@ -25,4 +25,14 @@
 (display (abs -3))
 (newline)
 
+; Demonstrate logical composition operations
+
+(display (not 1))
+(newline)
+(display (not (not 1)))
+(newline)
+
+(display (and (> 2 1) (< 1 2)))
+(newline)
+
 (exit)
