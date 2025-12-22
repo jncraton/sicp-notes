@@ -18,4 +18,10 @@
 (display (sqrt 9))
 (newline)
 
+; new-if from exercise 1.6
+; This can be used in place of `if` above to exceed max recursion depth
+(define (new-if predicate then-clause else-clause)
+  (cond (predicate then-clause)
+        (else else-clause)))
+
 (exit)
