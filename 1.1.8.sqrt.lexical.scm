@@ -13,7 +13,7 @@
   (define (good-enough? guess x)
     (< (abs (- (square guess) x)) 0.001))
 
-    (sqrt-iter 1.0 x))
+  (sqrt-iter 1.0 x))
 
 (display (sqrt 9))
 (newline)
