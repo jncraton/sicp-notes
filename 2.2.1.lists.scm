@@ -51,4 +51,7 @@
 (display (map square mylist))
 (newline)
 
+(display (map square (list 1 2 3)))
+(newline)
+
 (exit)
