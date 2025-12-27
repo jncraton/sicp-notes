@@ -54,4 +54,7 @@
 (display (map square (list 1 2 3)))
 (newline)
 
+(display (map square '(1 2 3)))
+(newline)
+
 (exit)
