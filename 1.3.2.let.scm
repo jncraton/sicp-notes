@@ -9,4 +9,17 @@
 
 (display (f 3 4))
 (newline)
+
+; lambda version
+(define (flambda x y)
+  ((lambda (a b)
+    (+ (* x (square a))
+       (* y b)
+       (* a b)))
+  (+ 1 (* x y))
+  (- 1 y)))
+
+(display (flambda 3 4))
+(newline)
+
 (exit)
