@@ -14,4 +14,12 @@
 (display (cdr mylist))
 (newline)
 
+(define (list-ref items n)
+  (if (= n 0)
+      (car items)
+      (list-ref (cdr items) (- n 1))))
+
+(display (list-ref mylist 3))
+(newline)
+
 (exit)
