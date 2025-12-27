@@ -8,4 +8,10 @@
 (display mylist)
 (newline)
 
+(display (car mylist))
+(newline)
+
+(display (cdr mylist))
+(newline)
+
 (exit)
