@@ -44,4 +44,11 @@
     (cons (proc (car items))
           (map proc (cdr items)))))
 
+(define (square n)
+  (* n n)
+)
+
+(display (map square mylist))
+(newline)
+
 (exit)
