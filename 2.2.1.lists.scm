@@ -30,4 +30,12 @@
 (display (length mylist))
 (newline)
 
+(define (append list1 list2)
+  (if (null? list1)
+      list2
+      (cons (car list1) (append (cdr list1) list2))))
+
+(display (append mylist (list 5 6)))
+(newline)
+
 (exit)
