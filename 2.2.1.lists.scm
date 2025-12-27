@@ -22,4 +22,12 @@
 (display (list-ref mylist 3))
 (newline)
 
+(define (length items)
+  (if (null? items)
+      0
+      (+ 1 (length (cdr items)))))
+
+(display (length mylist))
+(newline)
+
 (exit)
