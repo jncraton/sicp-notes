@@ -22,4 +22,15 @@
 (display (flambda 3 4))
 (newline)
 
+; let version
+(define (flet x y)
+  (let ((a (+ 1 (* x y)))
+        (b (- 1 y)))
+    (+ (* x (square a))
+       (* y b)
+       (* a b))))
+
+(display (flet 3 4))
+(newline)
+
 (exit)
